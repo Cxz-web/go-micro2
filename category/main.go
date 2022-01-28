@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/Cxz-web/go-micro2/user/domain/catefory/common"
-	"github.com/Cxz-web/go-micro2/user/domain/catefory/handler"
-	pb "github.com/Cxz-web/go-micro2/user/domain/catefory/proto"
+	"github.com/Cxz-web/go-micro2/category/common"
+	"github.com/Cxz-web/go-micro2/category/handler"
+	pb "github.com/Cxz-web/go-micro2/category/proto"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 	"github.com/micro/go-micro/v2"

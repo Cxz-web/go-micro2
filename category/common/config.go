@@ -1,6 +1,7 @@
 package common
 
 import (
+	"fmt"
 	"github.com/micro/go-micro/v2/config"
 	"github.com/micro/go-plugins/config/source/consul/v2"
 )
@@ -20,4 +21,8 @@ func GetConsulConfig(host string, port int64, prefix string) (config.Config, err
 	}
 
 	return config, config.Load(soucre)
+}
+
+func MyTest() {
+	fmt.Println(123)
 }
