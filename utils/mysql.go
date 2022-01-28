@@ -5,7 +5,7 @@ import (
 	"github.com/jinzhu/gorm"
 )
 
-func initMysql() (*gorm.DB, error) {
+func InitMysql() (*gorm.DB, error) {
 	db, err := gorm.Open("mysql", "root:watch8562871@(127.0.0.1:3306)/category?charset=utf8mb4&parseTime=True&loc=Local")
 
 	db.SingularTable(true)
