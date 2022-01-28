@@ -24,5 +24,5 @@ func GetConsulConfig(host string, port int64, prefix string) (config.Config, err
 }
 
 func MyTest() {
-	fmt.Println(3333)
+	fmt.Println(34443)
 }
